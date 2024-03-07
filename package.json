@@ -1,0 +1,21 @@
+{
+  "name": "k8s-watcher-ts",
+  "version": "0.0.1",
+  "description": "A brief description of your project",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@kubernetes/client-node": "^0.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}
